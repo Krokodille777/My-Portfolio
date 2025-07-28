@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors */
+  --color-orange: #ee8434;
+  --color-orange-50: #fce7d6;
+  --color-orange-100: #f8ceae;
+  --color-orange-200: #f5b685;
+  --color-orange-300: #f29d5d;
+  --color-orange-400: #ee8434;
+  --color-orange-500: #d76711;
+  --color-orange-600: #a14d0d;
+  --color-orange-700: #6c3409;
+  --color-orange-800: #361a04;
+  --color-orange-900: #1a0d02;
+
+  --color-blush: #f8e9e9;
+  --color-blush-50: #fefafa;
+  --color-blush-100: #fcf6f6;
+  --color-blush-200: #fbf1f1;
+  --color-blush-300: #f9ecec;
+  --color-blush-400: #f8e9e9;
+  --color-blush-500: #e19f9f;
+  --color-blush-600: #ca5656;
+  --color-blush-700: #922e2e;
+  --color-blush-800: #491717;
+  --color-blush-900: #240b0b;
+
+  --color-dark: #202030;
+  --color-dark-50: #ccccdd;
+  --color-dark-100: #9898ba;
+  --color-dark-200: #656598;
+  --color-dark-300: #434364;
+  --color-dark-400: #202030;
+  --color-dark-500: #1a1a27;
+  --color-dark-600: #14141d;
+  --color-dark-700: #0d0d14;
+  --color-dark-800: #07070a;
+  --color-dark-900: #030305;
+
+  /* Custom Font Family */
+  --font-family-sans: 'Maven Pro', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --default-font-family: 'Maven Pro', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Custom Scrollbar Styles */
+
+/* Firefox Scrollbar Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(238 132 52 / 0.6) transparent;
+}
+
+/* Dark mode Firefox scrollbars */
+body.dark * {
+  scrollbar-color: rgb(238 132 52 / 0.8) rgb(20 20 29 / 0.5);
+}
+
+/* WebKit Scrollbar Support (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgb(238 132 52 / 0.4);
+  border-radius: 4px;
+  border: 1px solid rgb(248 233 233 / 0.1);
+  transition: all 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(238 132 52 / 0.7);
+  border-color: rgb(248 233 233 / 0.2);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Light Mode Scrollbars - Default State */
+:root {
+  --scrollbar-thumb: rgb(238 132 52 / 0.4);
+  --scrollbar-thumb-hover: rgb(238 132 52 / 0.7);
+  --scrollbar-track: transparent;
+  --scrollbar-border: rgb(248 233 233 / 0.1);
+  --scrollbar-border-hover: rgb(248 233 233 / 0.2);
+}
+
+/* Dark Mode Scrollbars - Applied via body class */
+body.dark *::-webkit-scrollbar-thumb {
+  background: rgb(238 132 52 / 0.6);
+  border: 1px solid rgb(32 32 48 / 0.3);
+}
+
+body.dark *::-webkit-scrollbar-thumb:hover {
+  background: rgb(238 132 52 / 0.8);
+  border-color: rgb(32 32 48 / 0.5);
+}
+
+body.dark *::-webkit-scrollbar-track {
+  background: rgb(20 20 29 / 0.2);
+}
+
+/* Enhanced scrollbars for main content areas */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 10px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(238 132 52 / 0.5), rgb(238 132 52 / 0.3));
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgb(238 132 52 / 0.8), rgb(238 132 52 / 0.6));
+}
+
+body.dark .overflow-y-auto::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(238 132 52 / 0.7), rgb(238 132 52 / 0.5));
+}
+
+body.dark .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgb(238 132 52 / 0.9), rgb(238 132 52 / 0.7));
+}
+
+/* Your custom styles here */
