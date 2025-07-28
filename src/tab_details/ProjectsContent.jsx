@@ -28,8 +28,8 @@ const projects = [
     longDescription: 'This project features a collection of realistic furniture models designed for use in various 3D art projects and video games. Each piece was meticulously crafted with attention to detail, including realistic textures and materials. The models are optimized for real-time rendering and can be used in both commercial and non-commercial projects.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/gr.png',
-    images: ['/grg.png', '/tap.png', '/film.png']
+    thumbnail: 'gr.png',
+    images: ['grg.png', 'tap.png', 'film.png']
   },
   {
     id: 2,
@@ -39,8 +39,8 @@ const projects = [
     longDescription: 'This pack of models contains a variety of technological props. It can include computer equipment, vehicles, any kind of technology and even musical instruments. Each model is designed with high detail and optimized for use in real-time applications.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/dd.png',
-    images: ['/flash.png', '/bmw.png', '/flute.png']
+    thumbnail: 'dd.png',
+    images: ['flash.png', 'bmw.png', 'flute.png']
   },
   {
     id: 3,
@@ -50,8 +50,8 @@ const projects = [
     longDescription: 'This pack of models contains a variety of outdoor props. It can include trees, benches, road props, etc. Each model is designed as well as i could and optimized for use in real-time applications.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/wbench.png',
-    images: ['/tori.png', '/traf.png', '/pool.png']
+    thumbnail: 'wbench.png',
+    images: ['tori.png', 'traf.png', 'pool.png']
   },
   {
     id: 4,
@@ -61,8 +61,8 @@ const projects = [
     longDescription: 'Developed a cohesive set of historical models including props, clothing, and environmental pieces. The art style emphasized realism and attention to detail while maintaining visual interest through careful texturing.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/medhou.png',
-    images: ['/vhelm.png', '/grpr.png', '/well.png', '/sword.png']
+    thumbnail: 'medhou.png',
+    images: ['vhelm.png', 'grpr.png', 'well.png', 'sword.png']
   },
   {
     id: 5,
@@ -72,8 +72,8 @@ const projects = [
     longDescription: 'Developed a cohesive set of weapons and clothing models including props, armor, and environmental pieces. The art style emphasized realism and attention to detail while maintaining visual interest through careful texturing.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/carbm.png',
-    images: ['/shot.png', '/fedra.png', '/fraxe.png', '/toha.png']
+    thumbnail: 'carbm.png',
+    images: ['shot.png', 'fedra.png', 'fraxe.png', 'toha.png']
   
   },
   {
@@ -84,8 +84,8 @@ const projects = [
     longDescription: 'This project showcases a variety of props and models that defy traditional categorization. Each piece is crafted with an emphasis on creativity, allowing for unique applications in various artistic contexts.',
     tools: ['Blender', "Photoshop"],
     links: {},
-    thumbnail: '/jola.png',
-    images: ['/tplane.png', '/ginga.png', 'weben.png', '/hart.png']
+    thumbnail: 'jola.png',
+    images: ['tplane.png', 'ginga.png', 'weben.png', 'hart.png']
   }
 ]
 
