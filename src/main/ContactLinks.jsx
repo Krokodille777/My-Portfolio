@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Box, Mail } from 'lucide-react'
+import { Box, Cat, Plane, Camera, Mail } from 'lucide-react'
 import { useTheme } from './PortfolioApp'
 import DiscordDarkIcon from '../assets/discord.dark.svg?react'
 import DiscordLightIcon from '../assets/discord.light.svg?react'
@@ -40,8 +40,15 @@ const contactLinks = [
   }
   ,
   {
+    id : 'instagram',
+    icon: Camera,
+    displayName: 'original_kroko',
+    link: 'https://www.instagram.com/originalkroko/',
+    type: 'link'
+  },
+  {
     id: 'github',
-    icon: Box,
+    icon: Cat,
     displayName: 'Krokodille777',
     link: 'https://github.com/Krokodille777',
     type: 'link'
@@ -49,9 +56,17 @@ const contactLinks = [
   ,
   {
     id: "telegram",
-    icon: Box,
-    displayName: "Kroko",
+    icon:  Plane,
+    displayName: "Original Kroko",
     link:null,
+    type: 'display'
+  }
+  ,
+  {
+    id: "roblox",
+    icon: Box,
+    displayName: "original_kroko",
+    link: null,
     type: 'display'
   }
 ]

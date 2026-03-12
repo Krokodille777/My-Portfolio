@@ -29,7 +29,7 @@ const projects = [
     tools: ['Blender', "Photoshop"],
     links: {},
     thumbnail: 'gr.png',
-    images: ['grg.png', 'tap.png', 'film.png']
+    images: ['grg.png', 'tap.png', 'ac.png']
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const projects = [
     tools: ['Blender', "Photoshop"],
     links: {},
     thumbnail: 'wbench.png',
-    images: ['tori.png', 'traf.png', 'pool.png']
+    images: ['tori.png', 'mani.png', 'hus.png', 'pool.png']
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ const projects = [
     tools: ['Blender', "Photoshop"],
     links: {},
     thumbnail: 'medhou.png',
-    images: ['vhelm.png', 'grpr.png', 'well.png', 'sword.png']
+    images: ['vhelm.png', 'grpr.png', 'well.png', 'ship.png', 'wag.png', 'tara.png']
   },
   {
     id: 5,

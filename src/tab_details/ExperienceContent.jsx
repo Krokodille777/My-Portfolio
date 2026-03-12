@@ -58,6 +58,20 @@ const experiences = [
       "Successfully exported models in GTA V format",
     ],
     technologies: ["Blender", 'Photoshop']
+  },
+  {
+    id: 4,
+    role: "UGC x Assets Creator for Roblox",
+    duration: '2024 - Present',
+    location: 'Remote',
+    type: 'Commission',
+    description: 'I create various 3D assets for Roblox games, including characters, props, and environments. My work focuses on making assets that are both visually appealing and performance-efficient for the Roblox platform.',
+    achievements: [
+      'Created 10+ UGC assets for Roblox games',
+      "Learned to use various 3D modeling software for Roblox",
+      "Successfully deployed assets in Roblox games"
+    ],
+    technologies: ["Blender", 'Photoshop']
   }
 ]
 
